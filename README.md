@@ -1,7 +1,11 @@
-# debugging-sql-queries-demo
+# Debugging Complex SQL (Demo)
+
+For [Debugging Complex SQL Queries: A Structured Logging Approach](https://kunzite.cc/debugging-complex-sql-queries-structured-logging)
+
+![](./screenshot-2025-03-08.png)
 
 
-Tools used:
+## Technologies used
 
 - [x] [Vite](https://vite.dev/)
 
@@ -21,3 +25,7 @@ Tools used:
 
   * It renders the component to the current page's DOM.
     Meaning, if we use global state, we need to 
+
+---
+
+END.

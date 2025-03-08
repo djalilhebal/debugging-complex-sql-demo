@@ -1,7 +1,7 @@
 {
-  "name": "debugging-sql-queries-demo",
+  "name": "debugging-complex-sql-demo",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.20250308.1",
   "type": "module",
   "scripts": {
     "dev": "vite",

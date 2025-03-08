@@ -23,6 +23,7 @@ async function loadResult() {
   try {
     loading.value = true;
     const rows = await knex
+      .select('step3.*')
       .with(
         'raw_data',
         ['warehouse', 'product', 'quantity'],
@@ -67,7 +68,7 @@ async function loadResult() {
       )
       .from('step3')
       .modify(withLoggedSteps, 'step1', 'step2')
-      .select('step3.*');
+      ;
 
     result.value = JSON.stringify(rows, null, 2);
   } catch (err) {
